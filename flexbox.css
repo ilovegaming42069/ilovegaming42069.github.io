@@ -1,0 +1,46 @@
+h1, p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+* {
+    box-sizing: border-box;
+  }
+* body {
+    background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg");
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 10px;
+    border: 1vh solid #0db1acba;
+    border-radius: 25px;
+    justify-content: space-evenly;
+    padding: 4vh;
+    color: rgb(0, 0, 0);
+}
+.foods{
+    background-color: #0db1acba;
+    border-radius: 25px;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 5px;
+    text-align: center;
+  }
+.price {
+    font-size: 25px;
+    color: black;
+}
+  
+.name {
+    font-size: 25px;
+    color: black;
+}
+@media (max-width: 670px) {
+    .menu{
+      flex-direction: column;
+      align-items: center;
+      gap: 3vh;
+    }
+  }
